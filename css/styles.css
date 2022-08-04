@@ -1,0 +1,46 @@
+:root {
+	--light-text-color: #ffffff;
+	--text-color: #737373;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+address {
+	font-style: normal;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	font-family: inherit;
+	border: none;
+	background: transparent;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1190px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
