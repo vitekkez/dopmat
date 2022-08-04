@@ -46,8 +46,6 @@ img {
 }
 
 .header {
-	/* position: absolute;
-	width: 100%; */
 	padding: 40px 0;
 	background-color: #100e35;
 }
@@ -101,6 +99,7 @@ header .container {
 .hero {
 	padding: 240px 0 270px;
 	background-color: #100e35;
+	background-image: url(../img/hero.jpg);
 }
 
 .hero .title {
@@ -213,4 +212,86 @@ header .container {
 	color: #ffffff;
 	background-color: #0a8bfe;
 	border-radius: 4px;
+}
+/* About */
+
+.about-title {
+	font-size: 41px;
+	line-height: 1.22;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.about-text {
+	margin-bottom: 60px;
+
+	font-size: 12px;
+	line-height: 2.5;
+	text-align: center;
+}
+
+.about-button {
+	font-size: 24px;
+	line-height: 1.58;
+	text-align: center;
+}
+.about-card-title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.4;
+
+	color: #000000;
+}
+.about-card-text {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 2.73;
+
+	color: #737373;
+}
+
+.about-link {
+	display: inline-block;
+	background: #0a8bfe;
+	border-radius: 4px;
+	padding: 15px 49px;
+	color: #ffffff;
+	margin: auto;
+}
+
+.about {
+	padding: 150px 0px;
+	text-align: center;
+}
+
+.about-list-button {
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+}
+
+.aktive {
+	color: #0a8bfe;
+}
+
+.about-list-button {
+	margin-bottom: 60px;
+}
+
+.about-list-card {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-bottom: 50px;
+}
+
+.about-card {
+	padding: 40px 38px;
+	width: 560px;
+	border: 1px solid #e8e8e8;
+	text-align: left;
 }
